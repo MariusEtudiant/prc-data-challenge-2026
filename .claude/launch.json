@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lancee-expo",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$env:REACT_NATIVE_PACKAGER_HOSTNAME='192.168.0.93'; $env:EXPO_NO_TELEMETRY='1'; $env:COREPACK_ENABLE_DOWNLOAD_PROMPT='0'; pnpm --dir 'C:\\Users\\Marius\\Desktop\\lancee\\apps\\mobile' exec expo start --go --lan --port 8081 --clear"
+      ],
+      "port": 8081
+    },
+    {
+      "name": "lancee-art",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:\\Users\\Marius\\AppData\\Local\\Temp\\claude\\C--Users-Marius-Desktop-PRC-DATA-CHALLENGE\\f5b76642-f340-47d6-9b52-c45c06e56037\\scratchpad\\art3d\\serve.mjs"
+      ],
+      "port": 4173
+    }
+  ]
+}

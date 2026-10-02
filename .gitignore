@@ -1,0 +1,14 @@
+# Data: redistributing the challenge dataset is not ours to do, and the derived
+# matrices run to gigabytes. Everything here is rebuilt by the scripts.
+data/
+experiments/
+models/
+submissions/
+reports/
+catboost_info/
+.venv_automl/
+__pycache__/
+*.pyc
+
+# Credentials, never
+.secrets/
