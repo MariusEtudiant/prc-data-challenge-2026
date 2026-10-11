@@ -1,14 +1,22 @@
-# Data: redistributing the challenge dataset is not ours to do, and the derived
-# matrices run to gigabytes. Everything here is rebuilt by the scripts.
+# The challenge dataset is the organisers' to distribute, not ours.
 data/
+.secrets/
+
+# Build products: every one is rebuilt by the scripts in scripts/.
 experiments/
 models/
-submissions/
 reports/
+submissions/
+features/
+validation/
 catboost_info/
-.venv_automl/
+
+# Exploratory work that did not reach the final pipeline.
+archive/
+
 __pycache__/
 *.pyc
-
-# Credentials, never
-.secrets/
+.venv*/
+.ipynb_checkpoints/
+.claude/
+PRC_DC2026_Journal.ipynb
